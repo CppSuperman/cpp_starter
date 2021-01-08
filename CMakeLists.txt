@@ -9,3 +9,7 @@ else()
 endif()
 
 add_executable(starter main.cpp)
+
+enable_testing()
+add_executable(tester test.cpp)
+add_test(Tester tester)
