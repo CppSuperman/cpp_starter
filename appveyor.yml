@@ -1,6 +1,13 @@
 image:
   - Visual Studio 2017
+
 clone_folder: c:\projects\source
+
+branches:
+  # whitelist
+  only:
+    - master
+
 build_script:
 - cmd: mkdir build
 - cmd: cd build
