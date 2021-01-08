@@ -1,0 +1,3 @@
+/Users/kay/Documents/mywork/starter_cpp_project/build/CMakeFiles/rebuild_cache.dir
+/Users/kay/Documents/mywork/starter_cpp_project/build/CMakeFiles/edit_cache.dir
+/Users/kay/Documents/mywork/starter_cpp_project/build/CMakeFiles/starter.dir
