@@ -1,4 +1,6 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.10)
+
+set(CMAKE_CXX_STANDARD 14)
 
 if (MSVC)
     add_compile_options(/W4)
@@ -7,4 +9,3 @@ else()
 endif()
 
 add_executable(starter main.cpp)
-target_compile_features(starter PRIVATE cxx_lambda_init_captures)
