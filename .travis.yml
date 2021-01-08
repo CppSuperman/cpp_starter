@@ -1,4 +1,4 @@
-dist: buster
+dist: focal
 arch: amd64
 os: linux
 language: cpp
